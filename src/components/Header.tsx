@@ -42,7 +42,11 @@ const Header = () => {
             </button>
           </nav>
 
-          <Button variant="eco" size="lg">
+          <Button 
+            variant="eco" 
+            size="lg"
+            onClick={() => scrollToSection('products')}
+          >
             Купить
           </Button>
         </div>

@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import VideoSection from "@/components/VideoSection";
 import ProductSection from "@/components/ProductSection";
+import ProductShowcase from "@/components/ProductShowcase";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -77,6 +78,7 @@ const Index = () => {
         {products.map((product) => (
           <ProductSection key={product.id} {...product} />
         ))}
+        <ProductShowcase products={products} />
       </main>
       <Footer />
     </div>
