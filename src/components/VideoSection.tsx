@@ -9,12 +9,14 @@ const VideoSection = () => {
           
           <div className="relative bg-card rounded-2xl shadow-xl overflow-hidden">
             <div className="aspect-video">
-              <iframe
-                src="https://vkvideo.ru/video-207763595_456245633"
-                className="w-full h-full"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              <iframe 
+                src="https://vkvideo.ru/video_ext.php?oid=-207763595&id=456245633&hd=3&autoplay=1" 
+                width="1280" 
+                height="720" 
+                allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+                frameBorder="0" 
                 allowFullScreen
+                className="w-full h-full"
                 title="Как работают генетические тесты iGen"
               ></iframe>
             </div>

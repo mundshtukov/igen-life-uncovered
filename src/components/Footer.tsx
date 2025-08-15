@@ -24,8 +24,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Контакты</h3>
             <div className="text-primary-foreground/80 space-y-2">
-              <p>support@igen.com</p>
-              <p>+7 (800) 555-00-00</p>
+              <p>+7 910 821 6825</p>
+              <p><a href="https://t.me/mundshtukova" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">@mundshtukova</a></p>
             </div>
           </div>
         </div>
