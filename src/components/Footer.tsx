@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-primary-foreground/60">
-            <p>&copy; 2024 iGen. Все права защищены.</p>
+            <p>&copy; 2025 iGen. Все права защищены.</p>
             <p>Генетические тесты для персонализированного подхода к здоровью</p>
           </div>
         </div>
